@@ -677,9 +677,6 @@
             catch(e){ splashScreen.classList.remove('hidden'); }
         } else { splashScreen.classList.remove('hidden'); }
     })();
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js');
 </script>
 </body>
 </html>
